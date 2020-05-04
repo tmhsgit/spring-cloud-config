@@ -1,7 +1,7 @@
 server:
-    port: 8101
+    port: 8100
 eureka:
     instance:
         instance-id: order-api-8101
         prefer-ip-address: true # 访问路径可以显示 IP
-env: dev
+env: dev1
