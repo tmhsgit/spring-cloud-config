@@ -11,7 +11,7 @@ spring:
     password: 402932
     driver-class-name: com.mysql.cj.jdbc.Driver
     
- eureka:
+eureka:
   instance:
     instance-id: goods-api-8081
     prefer-ip-address: true # 访问路径可以显示 IP
