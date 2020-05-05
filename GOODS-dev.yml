@@ -1,17 +1,7 @@
 server:
     port: 8081
-    
-spring:
-  profiles:
-    active: dev
-
-  datasource:
-    url: jdbc:mysql://192.168.3.15:3306/demo?useUnicode=true&characterEncoding=utf8
-    username: root
-    password: 402932
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    
 eureka:
-  instance:
-    instance-id: goods-api-8081
-    prefer-ip-address: true # 访问路径可以显示 IP
+    instance:
+        instance-id: order-api-8081
+        prefer-ip-address: true # 访问路径可以显示 IP
+env: dev
